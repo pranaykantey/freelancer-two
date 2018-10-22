@@ -1,0 +1,79 @@
+/***
+* Global styles
+*/
+img {
+    max-width: 100%;
+    height: auto;
+}
+
+/***
+* Header Area style
+*/
+.header {
+    background-image: url(../img/banner.png);
+    overflow: hidden;
+}
+/* header nav */
+.bg-custom {
+	background-image: linear-gradient(rgba(255,255,255,.2),rgba(255,255,255,.06));
+    box-shadow: 0 .1px 2px 0 rgba(0,0,0,.2);
+}
+.style-custom ul li a.nav-link {
+    font-size: 17px;
+    text-transform: uppercase;
+    color: black;
+}
+.navbar-brand img {
+	width: 125px;
+}
+/* header content area */
+.header-content {
+    margin-top: 200px;
+}
+    /* header banar */
+    .typed-cursor.typed-cursor--blink {
+        font-size: 28px !important;
+        margin-left: 2px !important;
+        color: rgba(255,255,255,1) !important;
+    }
+    .typed-cursor {
+        font-size: 28px !important;
+        margin-left: 2px !important;
+        color: rgba(255,255,255,.4) !important;
+    }
+/***
+* custom made classes 
+*/
+    /* banar style */
+    .banar-margin{
+        margin-top: 200px;
+        margin-bottom: 100px;
+    }
+    /* animation custom */
+.duration-one {
+    animation-duration: 1s;
+}
+.duration-two {
+    animation-duration: 2s;
+}
+.duration-three {
+    animation-duration: 3s;
+}
+.duration-four {
+    animation-duration: 4s;
+}
+.duration-half {
+    animation-duration: .5s;
+}
+    /* z-index custom */
+.z-mid{
+    z-index: 99;
+}
+.z-low {
+    z-index: 0;
+}
+
+    /* margn adjastemnt */
+.margin-adjMin {
+    margin-right: -30px;
+}
