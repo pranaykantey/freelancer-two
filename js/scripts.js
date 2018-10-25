@@ -74,4 +74,13 @@ $(document).ready(function(){
         $('.scrollTop a').scrollTop();
       }
       scrollNav();
+
+
+      // Scrolspy work
+    //   $('body').scrollspy({ target: '#main-nav' });
+    //   $('[data-spy="scroll"]').on('activate.bs.scrollspy', function (e) {
+    //     alert('hmm');
+    //   });
+
+
 });
